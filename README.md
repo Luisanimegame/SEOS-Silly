@@ -1,3 +1,14 @@
+# Android Silly Port
+
+Gabriel: Que Show da xuxa é esse?
+
+Luke ★: Wtf bro
+
+Gabriel: Tumitumi ai tumi ai tumi aaar (tuei) lalalalalala
+
+
+Luke ★ - https://youtube.com/@gabewuzx?si=V1f0srOqyKWO6x83
+
 # Smoke 'Em Out Struggle Mod
 
 This is the repository for the Friday Night Funkin' Mod "Smoke 'Em Out Struggle" by Rageminer & atsuover.
