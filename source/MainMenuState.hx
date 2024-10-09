@@ -139,6 +139,15 @@ class MainMenuState extends MusicBeatState
 			{
 				FlxG.switchState(new TitleState());
 			}
+			
+			#if android
+			if (virtualPad.buttonC.justPressed) {
+			#if android
+			removeVirtualPad();
+			#end
+			FlxG.switchState(new OptionsMenu());
+			}
+			#end
 
 			if (controls.ACCEPT)
 			{

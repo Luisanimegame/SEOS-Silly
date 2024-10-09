@@ -50,6 +50,11 @@ class OptionsMenu extends MusicBeatState
 		 */
 
 		super.create();
+		
+		#if android
+		addVirtualPad(UP_DOWN, A_B_C);
+		virtualPad.y = -24;
+		#end
 
 		openSubState(new OptionsSubState());
 	}
@@ -63,6 +68,15 @@ class OptionsMenu extends MusicBeatState
 			{
 				changeBinding();
 			}
+			
+			#if android
+			if (virtualPad.buttonC.justPressed) {
+			#if android
+			removeVirtualPad();
+			#end
+			openSubState(new android.AndroidControlsSubState());
+			}
+			#end
 
 			if (isSettingControl)
 				waitingInput();
