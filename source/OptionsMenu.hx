@@ -55,8 +55,6 @@ class OptionsMenu extends MusicBeatState
 		addVirtualPad(UP_DOWN, A_B_C);
 		virtualPad.y = -24;
 		#end
-
-		openSubState(new OptionsSubState());
 	}
 
 	override function update(elapsed:Float)
