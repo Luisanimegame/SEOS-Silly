@@ -136,7 +136,7 @@ class AndroidControlsSubState extends FlxSubState
 				AndroidControls.setCustom(virtualPad);
 
 			flixel.addons.transition.FlxTransitionableState.skipNextTransOut = true;
-			FlxG.resetState();
+			FlxG.switchState(new MainMenuState());
 		}
 
 		super.update(elapsed);
