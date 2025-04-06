@@ -58,12 +58,6 @@
       "url": "https://github.com/Idklel01/hxCodec-but-it-works-xd"
     },
     {
-      "name": "extension-webm",
-      "type": "git",
-      "ref": "main",
-      "url": "https://github.com/Sirox228/extension-webm"
-    },
-    {
       "name": "extension-androidtools",
       "type": "git",
       "ref": "main",
